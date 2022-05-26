@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T10:12:31.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="FaZqvZQJzzIswINSAh26" version="18.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-26T10:15:16.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="sfYwURgvvVyCkJM6BxVq" version="18.1.1" type="github" pages="6">
   <diagram id="Kc7WcOj5Z0cgnOPFfwzi" name="FlyVehicle">
     <mxGraphModel dx="2062" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="vM7PZ0ZAOTlQjEwNuunb" name="Weapon1">
+  <diagram id="vM7PZ0ZAOTlQjEwNuunb" name="Weapon1-1">
     <mxGraphModel dx="2062" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -223,37 +223,45 @@
         <mxCell id="b0PfiMi4vmwb4GDa3raY-16" value="双枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-51" value="IWeapon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ozLAuVYYsa13rYQdyilk" name="Weapon1-2">
+    <mxGraphModel dx="2062" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-1" value="IWeapon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="878" y="140" width="160" height="182" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-54" value="+ Fire(): 开火" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-51">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-2" value="+ Fire(): 开火" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-58" value="+ Reload(): 换弹" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-51">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-3" value="+ Reload(): 换弹" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-1">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-59" value="+ ZoomIn(): 开镜" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-51">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-4" value="+ ZoomIn(): 开镜" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-1">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-60" value="+ ZoomOut(): 关镜" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-51">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-5" value="+ ZoomOut(): 关镜" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-1">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-61" value="+ PutInSlot(): 收枪" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-51">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-6" value="+ PutInSlot(): 收枪" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-1">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-62" value="+ TakeInSlot(): 持枪" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-51">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-7" value="+ TakeInSlot(): 持枪" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-1">
           <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-71" target="b0PfiMi4vmwb4GDa3raY-51">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-9" target="bW-kEUVMPEyeFiw1JlpL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-71" value="WeaponBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-9" value="WeaponBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="878" y="376" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-77" value="实现一些通用功能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-71">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-10" value="实现一些通用功能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-9">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-86" target="b0PfiMi4vmwb4GDa3raY-71">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-13" target="bW-kEUVMPEyeFiw1JlpL-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="751" y="530" as="sourcePoint" />
             <Array as="points">
@@ -262,7 +270,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-86" target="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-13" target="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="751" y="608" as="sourcePoint" />
             <Array as="points">
@@ -271,19 +279,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-86" value="SubmachineGun" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-13" value="SubmachineGun" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="530" width="160" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-87" value="+ skin：IWeaponSkin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-86">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-14" value="+ skin：IWeaponSkin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-13">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-116" value="冲锋枪具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-86">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-15" value="冲锋枪具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-13">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-89" target="b0PfiMi4vmwb4GDa3raY-71">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-18" target="bW-kEUVMPEyeFiw1JlpL-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="959" y="608" as="sourcePoint" />
             <mxPoint x="959" y="710.5" as="targetPoint" />
@@ -293,16 +301,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-89" value="ShotGun" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-18" value="ShotGun" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="878" y="530" width="160" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-117" value="+ skin：IWeaponSkin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-89">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-19" value="+ skin：IWeaponSkin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-18">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-90" value="散弹枪具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-89">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-20" value="散弹枪具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-18">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-91" target="b0PfiMi4vmwb4GDa3raY-71">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-23" target="bW-kEUVMPEyeFiw1JlpL-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1181" y="500" />
@@ -310,7 +318,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-91" target="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-23" target="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1181" y="660" />
@@ -318,19 +326,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-91" value="Suncha" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-23" value="Suncha" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="1101" y="530" width="160" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-118" value="- leftSkin：IWeaponSkin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-91">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-24" value="- leftSkin：IWeaponSkin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-23">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-119" value="- rightSkin：IWeaponSkin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-91">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-25" value="- rightSkin：IWeaponSkin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-23">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-92" value="双枪具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-91">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-26" value="双枪具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-23">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" target="b0PfiMi4vmwb4GDa3raY-104">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" target="bW-kEUVMPEyeFiw1JlpL-38">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750" y="1137.5" as="sourcePoint" />
             <Array as="points">
@@ -339,61 +347,61 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-93" value="SubmachineGunSkin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-28" value="SubmachineGunSkin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="1137.5" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-94" value="冲锋枪表现具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-93">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-29" value="冲锋枪表现具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-28">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-95" value="IWeaponSkin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-30" value="IWeaponSkin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="878" y="710.5" width="160" height="182" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-96" value="+ Fire(): 开火" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-31" value="+ Fire(): 开火" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-97" value="+ Reload(): 换弹" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-32" value="+ Reload(): 换弹" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-98" value="+ ZoomIn(): 开镜" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-33" value="+ ZoomIn(): 开镜" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-99" value="+ ZoomOut(): 关镜" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-34" value="+ ZoomOut(): 关镜" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-100" value="+ PutInSlot(): 收枪" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-35" value="+ PutInSlot(): 收枪" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-101" value="+ TakeInSlot(): 持枪" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-36" value="+ TakeInSlot(): 持枪" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-104" target="b0PfiMi4vmwb4GDa3raY-95">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-38" target="bW-kEUVMPEyeFiw1JlpL-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-104" value="WeaponSkinBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-38" value="WeaponSkinBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="878" y="947.5" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-107" value="+ PlayAnim() 播放动作" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-104">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-39" value="+ PlayAnim() 播放动作" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-38">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-108" value="+ PlayEffect() 播放特效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-104">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-40" value="+ PlayEffect() 播放特效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-38">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-109" value="+ PlaySound() 播放音效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-104">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-41" value="+ PlaySound() 播放音效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-38">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-106" value="实现一些通用功能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-104">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-42" value="实现一些通用功能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-38">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-112" target="b0PfiMi4vmwb4GDa3raY-104">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-44" target="bW-kEUVMPEyeFiw1JlpL-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-112" value="ShotGunSkin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-44" value="ShotGunSkin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="878" y="1137.5" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-113" value="散弹枪表现具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-112">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-45" value="散弹枪表现具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-44">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="b0PfiMi4vmwb4GDa3raY-114" target="b0PfiMi4vmwb4GDa3raY-104">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-47" target="bW-kEUVMPEyeFiw1JlpL-38">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1163" y="1117.5" />
@@ -401,122 +409,130 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-114" value="SunchaSkin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-47" value="SunchaSkin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="1083" y="1137.5" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="b0PfiMi4vmwb4GDa3raY-115" value="双枪表现具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b0PfiMi4vmwb4GDa3raY-114">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-48" value="双枪表现具体类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-47">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FwBKhWFsQYbILXgIVXVx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="FwBKhWFsQYbILXgIVXVx-1" target="b0PfiMi4vmwb4GDa3raY-51">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="bW-kEUVMPEyeFiw1JlpL-50" target="bW-kEUVMPEyeFiw1JlpL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FwBKhWFsQYbILXgIVXVx-1" value="WeaponControl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-50" value="WeaponControl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="878" y="20" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="FwBKhWFsQYbILXgIVXVx-2" value="weapon：IWeapon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FwBKhWFsQYbILXgIVXVx-1">
+        <mxCell id="bW-kEUVMPEyeFiw1JlpL-51" value="weapon：IWeapon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bW-kEUVMPEyeFiw1JlpL-50">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="WB_eEboJWMdPfpZMD5xN" name="Weapon2">
-    <mxGraphModel dx="2946" dy="2692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="gFl0OKT0EGGQtCTOD2Wi" name="Weapon2-1">
+    <mxGraphModel dx="2062" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-8" target="6vHnXssR0YVgNFAG3VNO-12">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-8" target="h4mnu1N4BEs6s3G562Ur-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-8" target="6vHnXssR0YVgNFAG3VNO-13">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-8" target="h4mnu1N4BEs6s3G562Ur-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-8" target="6vHnXssR0YVgNFAG3VNO-14">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-8" target="h4mnu1N4BEs6s3G562Ur-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-8" target="6vHnXssR0YVgNFAG3VNO-15">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-8" target="h4mnu1N4BEs6s3G562Ur-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-8" target="6vHnXssR0YVgNFAG3VNO-16">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-8" target="h4mnu1N4BEs6s3G562Ur-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-8" target="6vHnXssR0YVgNFAG3VNO-17">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-8" target="h4mnu1N4BEs6s3G562Ur-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-8" target="6vHnXssR0YVgNFAG3VNO-18">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-8" target="h4mnu1N4BEs6s3G562Ur-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-8" value="热武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-8" value="热武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="935" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-11" target="6vHnXssR0YVgNFAG3VNO-8">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-11" target="h4mnu1N4BEs6s3G562Ur-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-11" target="6vHnXssR0YVgNFAG3VNO-25">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-11" target="h4mnu1N4BEs6s3G562Ur-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-11" value="角色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-11" value="角色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="-210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-12" value="开火" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-12" value="开火" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-13" value="换弹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-13" value="换弹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="864" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-14" value="开镜/关镜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-14" value="开镜/关镜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-15" value="持枪/收枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-15" value="持枪/收枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-16" value="冲锋枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-16" value="冲锋枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1135" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-17" value="散弹枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-17" value="散弹枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1135" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-18" value="双枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-18" value="双枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1135" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-25" target="6vHnXssR0YVgNFAG3VNO-28">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-25" target="h4mnu1N4BEs6s3G562Ur-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-25" target="6vHnXssR0YVgNFAG3VNO-27">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-25" target="h4mnu1N4BEs6s3G562Ur-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-25" target="6vHnXssR0YVgNFAG3VNO-26">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-25" target="h4mnu1N4BEs6s3G562Ur-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-25" target="6vHnXssR0YVgNFAG3VNO-29">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-25" target="h4mnu1N4BEs6s3G562Ur-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-25" target="6vHnXssR0YVgNFAG3VNO-30">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-25" target="h4mnu1N4BEs6s3G562Ur-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6vHnXssR0YVgNFAG3VNO-25" target="6vHnXssR0YVgNFAG3VNO-31">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4mnu1N4BEs6s3G562Ur-25" target="h4mnu1N4BEs6s3G562Ur-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-25" value="冷武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-25" value="冷武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="454" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-26" value="刀" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-26" value="刀" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-27" value="枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-27" value="枪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-28" value="剑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-28" value="剑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-29" value="攻击" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-29" value="攻击" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-30" value="格挡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-30" value="格挡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="454" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6vHnXssR0YVgNFAG3VNO-31" value="持/收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h4mnu1N4BEs6s3G562Ur-31" value="持/收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="140" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WB_eEboJWMdPfpZMD5xN" name="Weapon2-2">
+    <mxGraphModel dx="2119" dy="2692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
         <mxCell id="LMku-cuYSAvi61cK2H-J-1" value="IHotWeapon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="2368" y="20" width="160" height="182" as="geometry" />
         </mxCell>
